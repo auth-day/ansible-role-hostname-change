@@ -1,0 +1,2 @@
+- name: change hostname to specified name in var "{{ inventory_hostname }}"
+  hostname: name="{{ inventory_hostname }}"
